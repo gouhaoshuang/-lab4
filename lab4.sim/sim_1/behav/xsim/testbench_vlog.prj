@@ -1,0 +1,36 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../rtl/sources" \
+"../../../../lab4.srcs/sources_1/ip/Data_mem/sim/Data_mem.v" \
+"../../../../lab4.srcs/sources_1/ip/Instr_mem/sim/Instr_mem.v" \
+"../../../../rtl/sources/adder.v" \
+"../../../../rtl/sources/alu.v" \
+"../../../../rtl/sources/alu_decode.v" \
+"../../../../rtl/sources/main_decode.v" \
+"../../../../rtl/sources/mux2_1.v" \
+"../../../../rtl/sources/mux3_1.v" \
+"../../../../rtl/sources/pc_plus4.v" \
+"../../../../rtl/sources/pc_reg.v" \
+"../../../../rtl/sources/regfile.v" \
+"../../../../rtl/sources/sign_extention.v" \
+
+sv xil_defaultlib  --include "../../../../rtl/sources" \
+"../../../../rtl/sources/controller.sv" \
+"../../../../rtl/sources/datapath.sv" \
+"../../../../rtl/sources/decode.sv" \
+"../../../../rtl/sources/execute.sv" \
+"../../../../rtl/sources/fetch.sv" \
+"../../../../rtl/sources/hazard.sv" \
+"../../../../rtl/sources/memory.sv" \
+"../../../../rtl/sources/mips.sv" \
+"../../../../rtl/sources/pipeline_reg.sv" \
+"../../../../rtl/sources/top.sv" \
+"../../../../rtl/sources/write_back.sv" \
+
+verilog xil_defaultlib  --include "../../../../rtl/sources" \
+"../../../../rtl/sim/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

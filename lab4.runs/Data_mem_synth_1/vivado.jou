@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon May  8 08:36:27 2023
+# Process ID: 31132
+# Current directory: D:/develop/code/vivado/lab4/lab4.runs/Data_mem_synth_1
+# Command line: vivado.exe -log Data_mem.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Data_mem.tcl
+# Log file: D:/develop/code/vivado/lab4/lab4.runs/Data_mem_synth_1/Data_mem.vds
+# Journal file: D:/develop/code/vivado/lab4/lab4.runs/Data_mem_synth_1\vivado.jou
+#-----------------------------------------------------------
+source Data_mem.tcl -notrace

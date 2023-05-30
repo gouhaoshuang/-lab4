@@ -1,0 +1,26 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/develop/code/vivado/lab4/rtl/sources/controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/develop/code/vivado/lab4/rtl/sources/datapath.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/develop/code/vivado/lab4/rtl/sources/decode.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/develop/code/vivado/lab4/rtl/sources/execute.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module execute
+INFO: [VRFC 10-2458] undeclared symbol zero, assumed default net type wire [D:/develop/code/vivado/lab4/rtl/sources/execute.sv:55]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/develop/code/vivado/lab4/rtl/sources/fetch.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fetch
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/develop/code/vivado/lab4/rtl/sources/hazard.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/develop/code/vivado/lab4/rtl/sources/memory.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/develop/code/vivado/lab4/rtl/sources/mips.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/develop/code/vivado/lab4/rtl/sources/pipeline_reg.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module f_d_reg
+INFO: [VRFC 10-311] analyzing module d_e_reg
+INFO: [VRFC 10-311] analyzing module e_m_reg
+INFO: [VRFC 10-311] analyzing module m_w_reg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/develop/code/vivado/lab4/rtl/sources/top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/develop/code/vivado/lab4/rtl/sources/write_back.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module writeback

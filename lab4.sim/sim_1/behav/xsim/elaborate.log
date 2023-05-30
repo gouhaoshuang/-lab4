@@ -1,0 +1,59 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/develop/vivado/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 21cc5ad0a70a4d3d9eb584ab5e9002b1 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'en' [D:/develop/code/vivado/lab4/rtl/sources/datapath.sv:116]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'clear' [D:/develop/code/vivado/lab4/rtl/sources/datapath.sv:117]
+WARNING: [VRFC 10-3091] actual bit length 58 differs from formal bit length 32 for port 'addra' [D:/develop/code/vivado/lab4/rtl/sources/top.sv:24]
+WARNING: [VRFC 10-526] concatenation with unsized literal; will interpret as 32 bits [D:/develop/code/vivado/lab4/rtl/sources/execute.sv:43]
+WARNING: [VRFC 10-526] concatenation with unsized literal; will interpret as 32 bits [D:/develop/code/vivado/lab4/rtl/sources/execute.sv:44]
+WARNING: [VRFC 10-3091] actual bit length 869 differs from formal bit length 32 for port 'a_1' [D:/develop/code/vivado/lab4/rtl/sources/execute.sv:43]
+WARNING: [VRFC 10-3091] actual bit length 869 differs from formal bit length 32 for port 'b_0' [D:/develop/code/vivado/lab4/rtl/sources/execute.sv:44]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/develop/code/vivado/lab4/rtl/sources/controller.sv" Line 3. Module controller doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/develop/code/vivado/lab4/rtl/sources/datapath.sv" Line 4. Module datapath doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/develop/code/vivado/lab4/rtl/sources/fetch.sv" Line 3. Module fetch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/develop/code/vivado/lab4/rtl/sources/decode.sv" Line 2. Module decode doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/develop/code/vivado/lab4/rtl/sources/execute.sv" Line 2. Module execute doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/develop/code/vivado/lab4/rtl/sources/memory.sv" Line 2. Module memory doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/develop/code/vivado/lab4/rtl/sources/hazard.sv" Line 2. Module hazard doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_controller_sv
+Compiling module xil_defaultlib.main_decode
+Compiling module xil_defaultlib.alu_decode
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.pc_reg
+Compiling module xil_defaultlib.pc_plus4
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.fetch
+Compiling module xil_defaultlib.f_d_reg
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.sign_extention
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.decode
+Compiling module xil_defaultlib.d_e_reg
+Compiling module xil_defaultlib.mux3_1
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.execute
+Compiling module xil_defaultlib.e_m_reg
+Compiling module xil_defaultlib.memory
+Compiling module xil_defaultlib.m_w_reg
+Compiling module xil_defaultlib.writeback
+Compiling module xil_defaultlib.hazard
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.mips
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.Instr_mem
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.Data_mem
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav

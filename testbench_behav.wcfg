@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_controller_sv " />
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="463500000fs"></ZoomStartTime>
+      <ZoomEndTime time="639300001fs"></ZoomEndTime>
+      <Cursor1Time time="610000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="188"></NameColumnWidth>
+      <ValueColumnWidth column_width="130"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="27" />
+   <wvobject fp_name="/testbench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/memwrite" type="logic">
+      <obj_property name="ElementShortName">memwrite</obj_property>
+      <obj_property name="ObjectShortName">memwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/pc" type="array">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/readdataM" type="array">
+      <obj_property name="ElementShortName">readdataM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readdataM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/instrF" type="array">
+      <obj_property name="ElementShortName">instrF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instrF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group158" type="group">
+      <obj_property name="label">reg</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/decode_dut/regfile_dut/rf[7]" type="array">
+         <obj_property name="ElementShortName">[7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/decode_dut/regfile_dut/rf[5]" type="array">
+         <obj_property name="ElementShortName">[5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/decode_dut/regfile_dut/rf[4]" type="array">
+         <obj_property name="ElementShortName">[4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/decode_dut/regfile_dut/rf[3]" type="array">
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/decode_dut/regfile_dut/rf[2]" type="array">
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/memory_data" type="array">
+      <obj_property name="ElementShortName">memory_data</obj_property>
+      <obj_property name="ObjectShortName">memory_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/decode_data" type="array">
+      <obj_property name="ElementShortName">decode_data</obj_property>
+      <obj_property name="ObjectShortName">decode_data</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/decode_data.RD1_data" type="array">
+         <obj_property name="ElementShortName">.RD1_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">.RD1_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/decode_data.RD2_data" type="array">
+         <obj_property name="ElementShortName">.RD2_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">.RD2_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/decode_data.signimm" type="array">
+         <obj_property name="ElementShortName">.signimm[31:0]</obj_property>
+         <obj_property name="ObjectShortName">.signimm[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/decode_data.rs_addr" type="array">
+         <obj_property name="ElementShortName">.rs_addr[4:0]</obj_property>
+         <obj_property name="ObjectShortName">.rs_addr[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/decode_data.rt_addr" type="array">
+         <obj_property name="ElementShortName">.rt_addr[4:0]</obj_property>
+         <obj_property name="ObjectShortName">.rt_addr[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/decode_data.rd_addr" type="array">
+         <obj_property name="ElementShortName">.rd_addr[4:0]</obj_property>
+         <obj_property name="ObjectShortName">.rd_addr[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/decode_data.pc_branch" type="array">
+         <obj_property name="ElementShortName">.pc_branch[31:0]</obj_property>
+         <obj_property name="ObjectShortName">.pc_branch[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/decode_data.zero" type="logic">
+         <obj_property name="ElementShortName">.zero</obj_property>
+         <obj_property name="ObjectShortName">.zero</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/decode_data.instr" type="array">
+         <obj_property name="ElementShortName">.instr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">.instr[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF0080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/decode_data.signimm_sl2" type="array">
+         <obj_property name="ElementShortName">.signimm_sl2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">.signimm_sl2[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/decode_data_in" type="array">
+      <obj_property name="ElementShortName">decode_data_in</obj_property>
+      <obj_property name="ObjectShortName">decode_data_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/fetch_data" type="array">
+      <obj_property name="ElementShortName">fetch_data</obj_property>
+      <obj_property name="ObjectShortName">fetch_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/execute_data_in" type="array">
+      <obj_property name="ElementShortName">execute_data_in</obj_property>
+      <obj_property name="ObjectShortName">execute_data_in</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/execute_data" type="array">
+      <obj_property name="ElementShortName">execute_data</obj_property>
+      <obj_property name="ObjectShortName">execute_data</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/memory_data_in" type="array">
+      <obj_property name="ElementShortName">memory_data_in</obj_property>
+      <obj_property name="ObjectShortName">memory_data_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/wb_data_in" type="array">
+      <obj_property name="ElementShortName">wb_data_in</obj_property>
+      <obj_property name="ObjectShortName">wb_data_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/wb_data" type="array">
+      <obj_property name="ElementShortName">wb_data</obj_property>
+      <obj_property name="ObjectShortName">wb_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/hazard_dut/hazard_sign" type="array">
+      <obj_property name="ElementShortName">hazard_sign</obj_property>
+      <obj_property name="ObjectShortName">hazard_sign</obj_property>
+   </wvobject>
+   <wvobject fp_name="group325" type="group">
+      <obj_property name="label">reg</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/decode_dut/regfile_dut/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/decode_dut/regfile_dut/we3" type="logic">
+         <obj_property name="ElementShortName">we3</obj_property>
+         <obj_property name="ObjectShortName">we3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/decode_dut/regfile_dut/ra1" type="array">
+         <obj_property name="ElementShortName">ra1[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ra1[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/decode_dut/regfile_dut/ra2" type="array">
+         <obj_property name="ElementShortName">ra2[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ra2[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/decode_dut/regfile_dut/wa3" type="array">
+         <obj_property name="ElementShortName">wa3[4:0]</obj_property>
+         <obj_property name="ObjectShortName">wa3[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/decode_dut/regfile_dut/wd3" type="array">
+         <obj_property name="ElementShortName">wd3[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wd3[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/decode_dut/regfile_dut/rd1" type="array">
+         <obj_property name="ElementShortName">rd1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rd1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/decode_dut/regfile_dut/rd2" type="array">
+         <obj_property name="ElementShortName">rd2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rd2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/decode_dut/regfile_dut/rf" type="array">
+         <obj_property name="ElementShortName">rf[31:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">rf[31:0][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group398" type="group">
+      <obj_property name="label">fetch</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/fetch/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/fetch/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/fetch/instrF" type="array">
+         <obj_property name="ElementShortName">instrF[31:0]</obj_property>
+         <obj_property name="ObjectShortName">instrF[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/fetch/pc" type="array">
+         <obj_property name="ElementShortName">pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/fetch/fetch_data" type="array">
+         <obj_property name="ElementShortName">fetch_data</obj_property>
+         <obj_property name="ObjectShortName">fetch_data</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/fetch/decode_data" type="array">
+         <obj_property name="ElementShortName">decode_data</obj_property>
+         <obj_property name="ObjectShortName">decode_data</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/fetch/decode_sign" type="array">
+         <obj_property name="ElementShortName">decode_sign</obj_property>
+         <obj_property name="ObjectShortName">decode_sign</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/fetch/pc_plus4F" type="array">
+         <obj_property name="ElementShortName">pc_plus4F[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pc_plus4F[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/fetch/pc_new" type="array">
+         <obj_property name="ElementShortName">pc_new[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pc_new[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/fetch/PC2F" type="array">
+         <obj_property name="ElementShortName">PC2F[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PC2F[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/fetch/PC1F" type="array">
+         <obj_property name="ElementShortName">PC1F[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PC1F[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/fetch/jump_addr_F" type="array">
+         <obj_property name="ElementShortName">jump_addr_F[31:0]</obj_property>
+         <obj_property name="ObjectShortName">jump_addr_F[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/decode_dut/mux2_1_RD2D/a_1" type="array">
+      <obj_property name="ElementShortName">a_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/decode_dut/mux2_1_RD2D/b_0" type="array">
+      <obj_property name="ElementShortName">b_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/decode_dut/mux2_1_RD2D/sel" type="logic">
+      <obj_property name="ElementShortName">sel</obj_property>
+      <obj_property name="ObjectShortName">sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/decode_dut/mux2_1_RD2D/out" type="array">
+      <obj_property name="ElementShortName">out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/decode_dut/RD1D_equal" type="array">
+      <obj_property name="ElementShortName">RD1D_equal[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD1D_equal[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips_dut/datapath_dut/decode_dut/RD2D_equal" type="array">
+      <obj_property name="ElementShortName">RD2D_equal[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD2D_equal[31:0]</obj_property>
+   </wvobject>
+</wave_config>
